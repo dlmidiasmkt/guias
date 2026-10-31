@@ -4,5 +4,5 @@ const CONFIG = {
   nome: "Mapa do Cuidador",
   preco: 27,
   checkout: "https://pay.kiwify.com.br/pGXghAn", // link do checkout da Kiwify (ex.: "https://pay.kiwify.com.br/XXXXXXX"); vazio = botões levam à oferta
-  pixel: "",    // ID do pixel do Meta; vazio = sem pixel
+  pixel: "2797978123937307",    // ID do pixel do Meta; vazio = sem pixel
 };

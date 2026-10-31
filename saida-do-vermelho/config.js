@@ -4,5 +4,5 @@ const CONFIG = {
   nome: "Saída do Vermelho",
   preco: 27,
   checkout: "https://pay.kiwify.com.br/y2xApBY", // link do checkout da Kiwify (ex.: "https://pay.kiwify.com.br/XXXXXXX"); vazio = botões levam à oferta
-  pixel: "",    // ID do pixel do Meta; vazio = sem pixel
+  pixel: "1384110693796377",    // ID do pixel do Meta; vazio = sem pixel
 };

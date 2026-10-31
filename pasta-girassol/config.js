@@ -4,5 +4,5 @@ const CONFIG = {
   nome: "Pasta Girassol",
   preco: 27,
   checkout: "https://pay.kiwify.com.br/4RjQMrz", // link do checkout da Kiwify (ex.: "https://pay.kiwify.com.br/XXXXXXX"); vazio = botões levam à oferta
-  pixel: "",    // ID do pixel do Meta; vazio = sem pixel
+  pixel: "1648094646908664",    // ID do pixel do Meta; vazio = sem pixel
 };
