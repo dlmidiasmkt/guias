@@ -337,3 +337,12 @@ details p { margin: 0 0 22px; color: #3d3a43; max-width: 40em; }
 .tema-claro .barra { background: #fff; color: var(--tinta); box-shadow: 0 16px 40px -12px rgba(120,60,40,.45), 0 0 0 1px #f1ddd3; }
 .tema-claro .cel { background: #fff; box-shadow: 0 30px 60px -18px rgba(120,60,40,.45), 0 0 0 1px #eadfd5; }
 .tema-claro .foto figcaption { color: var(--cinza); }
+
+/* ---------- faixas de gancho entre seções (opcionais, vêm de conteudo.ganchos) */
+.gancho { background: var(--marca-claro); border-block: 1px solid color-mix(in srgb, var(--marca-esc) 18%, transparent); }
+.gancho-in { padding-block: 44px; text-align: center; display: grid; justify-items: center; gap: 14px; }
+.gancho-t { margin: 0; max-width: 24em; font: italic 400 clamp(26px, 3.6vw, 40px)/1.15 var(--serif); color: var(--tinta); text-wrap: balance; }
+.gancho-t b { font-style: normal; font-family: "Plus Jakarta Sans", sans-serif; font-weight: 800; letter-spacing: -.02em; color: var(--marca-esc); }
+.gancho-p { margin: 0; max-width: 38em; color: color-mix(in srgb, var(--tinta) 72%, transparent); font-size: 16px; }
+.gancho .btn { margin-top: 6px; }
+@media (max-width: 640px) { .gancho-in { padding-block: 34px; } }
