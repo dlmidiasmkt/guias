@@ -99,7 +99,9 @@ mark { background: linear-gradient(transparent 16%, var(--marca) 16%, var(--marc
 .fita { background: var(--tinta); color: var(--creme); overflow: hidden; padding: 16px 0; border-block: 1px solid var(--linha); }
 .fita-trilho { display: flex; gap: 34px; width: max-content; white-space: nowrap; font: italic 400 24px/1 var(--serif); }
 .fita-trilho b { font: 800 13px/1 "Plus Jakarta Sans"; letter-spacing: .12em; text-transform: uppercase; color: var(--marca); align-self: center; }
-@media (prefers-reduced-motion: no-preference) { .fita-trilho { animation: corre 46s linear infinite; } }
+/* fita dos nomes: rola SEMPRE (PC e celular), mesmo com "reduzir movimento" (pedido do cliente) */
+.fita-trilho { animation: corre 46s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .fita-trilho { animation-duration: 60s; } }
 @keyframes corre { to { transform: translateX(-50%); } }
 
 /* fundos */
