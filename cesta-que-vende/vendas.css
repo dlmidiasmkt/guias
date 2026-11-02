@@ -346,3 +346,12 @@ details p { margin: 0 0 22px; color: #3d3a43; max-width: 40em; }
 .gancho-p { margin: 0; max-width: 38em; color: color-mix(in srgb, var(--tinta) 72%, transparent); font-size: 16px; }
 .gancho .btn { margin-top: 6px; }
 @media (max-width: 640px) { .gancho-in { padding-block: 34px; } }
+
+/* ---------- seção de vídeo (demo do processo, mudo em loop) */
+.video-sec { text-align: center; }
+.video-sec .sobre { color: var(--marca-esc); }
+.video-sec h2 { max-width: 16em; margin-inline: auto; }
+.video-moldura { position: relative; width: min(440px, 100%); margin: 36px auto 0; border-radius: 26px; overflow: hidden; box-shadow: 0 30px 70px -30px rgba(120,60,40,.5); }
+.video-moldura::before { content: ""; position: absolute; inset: 14px -16px -16px 14px; border-radius: 30px; background: var(--marca); z-index: -1; }
+.video-moldura video { display: block; width: 100%; height: auto; border-radius: 26px; background: #fff; }
+.tema-claro .video-moldura { box-shadow: 0 30px 70px -34px rgba(120,60,40,.55), 0 0 0 1px #f1ddd3; }
