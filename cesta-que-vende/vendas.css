@@ -357,3 +357,7 @@ details p { margin: 0 0 22px; color: #3d3a43; max-width: 40em; }
 .video-moldura::before { content: ""; position: absolute; inset: 14px -16px -16px 14px; border-radius: 30px; background: var(--marca); z-index: -1; }
 .video-moldura video { display: block; width: 100%; height: auto; border-radius: 26px; background: #fff; }
 .tema-claro .video-moldura { box-shadow: 0 30px 70px -34px rgba(120,60,40,.55), 0 0 0 1px #f1ddd3; }
+
+/* ---------- marca em SVG (conteudo.marca) */
+.logo i.marca-img { background: none; width: 36px; height: 36px; border-radius: 10px; overflow: hidden; display: block; }
+.logo i.marca-img svg { width: 100%; height: 100%; stroke: none; fill: none; display: block; }
